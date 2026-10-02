@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Media Club Gallery</title>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/icons/gallery.png">
+</head>
+
+<body class="bodyy">
+
+    <!-- Header -->
+    <header id="header">
+
+        <div class="brand">
+            <a href="index.html">
+                <img
+                    src="images/icons/logo.png"
+                    alt="HIT Media Club Logo"
+                    class="site-logo"
+                >
+            </a>
+
+            <h1 class="h11">
+                <span class="txt">H</span>IT
+                <span class="txt">M</span>edia
+                <span class="txt">C</span>lub
+            </h1>
+        </div>
+
+
+        <!-- Desktop Navigation -->
+        <nav class="desktop-nav">
+            <a href="events.html">Events</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contacts.html">Contact Us</a>
+            <a href="about.html">About Us</a>
+        </nav>
+
+
+        <!-- Mobile Menu Button -->
+        <button
+            class="menu-btn"
+            onclick="toggleMenu()"
+            aria-label="Open navigation menu"
+        >
+            ☰
+        </button>
+
+
+        <!-- Mobile Dropdown Menu -->
+        <nav id="mobileNav" class="mobile-nav">
+            <a href="events.html">Events</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contacts.html">Contact Us</a>
+            <a href="about.html">About Us</a>
+        </nav>
+
+    </header>
+
+
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+
+        <div class="gallery-header">
+            <h1 class="gal-h1">Our Gallery</h1>
+
+            <p>
+                Explore moments, stories and experiences captured by our
+                Media Club.
+            </p>
+        </div>
+
+
+        <!-- Gallery Grid -->
+        <div class="gallery">
+
+            <div class="gallery-item">
+                <img
+                    src="images/gallery/boost.webp"
+                    alt="Boost Competitions"
+                >
+                <div class="caption">Boost Competitions</div>
+            </div>
+
+
+            <div class="gallery-item">
+                <img
+                    src="images/gallery/cleanup.webp"
+                    alt="Campus Cleanup"
+                >
+                <div class="caption">Campus Cleanup</div>
+            </div>
+
+
+            <div class="gallery-item">
+                <img
+                    src="images/gallery/freshman.webp"
+                    alt="New Freshmen"
+                >
+                <div class="caption">New Freshmen</div>
+            </div>
+
+
+            <div class="gallery-item">
+                <img
+                    src="images/gallery/graduation.webp"
+                    alt="Graduation Ceremony"
+                >
+                <div class="caption">Graduation for Class of 2026</div>
+            </div>
+
+
+            <div class="gallery-item">
+                <img
+                    src="images/gallery/ndarama.webp"
+                    alt="Ndarama Event"
+                >
+                <div class="caption">Ndarama Event</div>
+            </div>
+
+
+            <div class="gallery-item">
+                <img
+                    src="images/gallery/postgraduates.webp"
+                    alt="Postgraduate Students"
+                >
+                <div class="caption">Postgraduates</div>
+            </div>
+
+
+            <div class="gallery-item">
+                <img
+                    src="images/gallery/src.webp"
+                    alt="HIT SRC"
+                >
+                <div class="caption">HIT SRC</div>
+            </div>
+
+
+            <div class="gallery-item">
+                <img
+                    src="images/gallery/technovation.webp"
+                    alt="Technovation Event"
+                >
+                <div class="caption">Technovation Event</div>
+            </div>
+
+
+            <div class="gallery-item">
+                <img
+                    src="images/gallery/enactus.webp"
+                    alt="Enactus Competition"
+                >
+                <div class="caption">Stories Worth Sharing</div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="foot">
+
+        <p>Media Club</p>
+
+        <p>
+            Create. Capture. Connect.
+        </p>
+
+        <p>
+            &#169; 2026 Adonis Technologies. All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- Mobile Menu JavaScript -->
+    <script>
+        function toggleMenu() {
+            const mobileNav = document.getElementById("mobileNav");
+            mobileNav.classList.toggle("active");
+        }
+    </script>
+
+</body>
+
+</html>

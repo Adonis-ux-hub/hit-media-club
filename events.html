@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Media Club Events</title>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/icons/events.png">
+</head>
+
+<body class="bodyy">
+
+    <!-- Header -->
+    <header id="header">
+
+        <div class="brand">
+            <a href="index.html">
+                <img
+                    src="images/icons/logo.png"
+                    alt="HIT Media Club Logo"
+                    class="site-logo"
+                >
+            </a>
+
+            <h1 class="h11">
+                <span class="txt">H</span>IT
+                <span class="txt">M</span>edia
+                <span class="txt">C</span>lub
+            </h1>
+        </div>
+
+
+        <!-- Desktop Navigation -->
+        <nav class="desktop-nav">
+            <a href="events.html">Events</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contacts.html">Contact Us</a>
+            <a href="about.html">About Us</a>
+        </nav>
+
+
+        <!-- Mobile Menu Button -->
+        <button
+            class="menu-btn"
+            onclick="toggleMenu()"
+            aria-label="Open navigation menu"
+        >
+            ☰
+        </button>
+
+
+        <!-- Mobile Dropdown Menu -->
+        <nav id="mobileNav" class="mobile-nav">
+            <a href="events.html">Events</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contacts.html">Contact Us</a>
+            <a href="about.html">About Us</a>
+        </nav>
+
+    </header>
+
+
+    <!-- Events Section -->
+    <section class="events-section">
+
+        <div class="events-container">
+
+            <!-- Event 1 -->
+            <div class="event-card">
+
+                <img
+                    src="images/events/conference.webp"
+                    alt="Media Conference"
+                >
+
+                <div class="event-content">
+
+                    <h2>Media &amp; Photography Conference</h2>
+
+                    <div class="event-info">
+                        <span class="category">MEDIA</span>
+                        <span>📅 March 12, 2026</span>
+                        <span>🕐 10:30 AM</span>
+                    </div>
+
+                    <p>
+                        Join us for an exciting media conference featuring
+                        photography, journalism, filmmaking and digital
+                        content creation.
+                    </p>
+
+                    <div class="event-details">
+                        <span>⌛ 10:30 AM</span>
+                        <span>📍 HIT Campus</span>
+                        <span>🎟 Free</span>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- Event 2 -->
+            <div class="event-card">
+
+                <img
+                    src="images/events/photo-work.webp"
+                    alt="Photography Workshop"
+                >
+
+                <div class="event-content">
+
+                    <h2>Photography Workshop</h2>
+
+                    <div class="event-info">
+                        <span class="category">WORKSHOP</span>
+                        <span>📅 April 20, 2026</span>
+                        <span>🕐 10:30 AM</span>
+                    </div>
+
+                    <p>
+                        Learn the fundamentals of photography, camera
+                        handling, composition, lighting and professional
+                        photo editing.
+                    </p>
+
+                    <div class="event-details">
+                        <span>⌛ 2 Hours</span>
+                        <span>📍 Media Lab</span>
+                        <span>🎟 Free</span>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- Event 3 -->
+            <div class="event-card">
+
+                <img
+                    src="images/events/film-fest.webp"
+                    alt="Student Film Festival"
+                >
+
+                <div class="event-content">
+
+                    <h2>Student Film Festival</h2>
+
+                    <div class="event-info">
+                        <span class="category">FILM</span>
+                        <span>📅 May 17, 2026</span>
+                        <span>🕐 12:00 PM</span>
+                    </div>
+
+                    <p>
+                        Experience creative student films and short
+                        documentaries produced by talented members of
+                        the Media Club.
+                    </p>
+
+                    <div class="event-details">
+                        <span>⌛ 3 Hours</span>
+                        <span>📍 Main Auditorium</span>
+                        <span>🎟 Free</span>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- Event 4 -->
+            <div class="event-card">
+
+                <img
+                    src="images/events/media-night.webp"
+                    alt="Media Club Induction"
+                >
+
+                <div class="event-content">
+
+                    <h2>Media Club Induction</h2>
+
+                    <div class="event-info">
+                        <span class="category">INDUCTION</span>
+                        <span>📅 June 14, 2026</span>
+                        <span>🕐 9:30 AM</span>
+                    </div>
+
+                    <p>
+                        A fun evening bringing together students,
+                        photographers, filmmakers, designers and other
+                        creative minds.
+                    </p>
+
+                    <div class="event-details">
+                        <span>⌛ Evening</span>
+                        <span>📍 HIT Campus</span>
+                        <span>🎟 $5</span>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="foot">
+
+        <p>Media Club</p>
+
+        <p>
+            Create. Capture. Connect.
+        </p>
+
+        <p>
+            &#169; 2026 Adonis Technologies. All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- Mobile Menu JavaScript -->
+    <script>
+        function toggleMenu() {
+            const mobileNav = document.getElementById("mobileNav");
+            mobileNav.classList.toggle("active");
+        }
+    </script>
+
+</body>
+</html>
